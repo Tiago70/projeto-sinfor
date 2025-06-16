@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<header>
+    <a href="index.html"><img src="imgs/img2.png" alt="Prêmio SINFOR de TI" /></a>
+    <a href="login.html"><button class="btn2">Login</button></a> 
+</header>
+<body>
+  <div class="container">
+    <form class="form-box" id="form-cadastro">
+      <h2>Cadastrar Empresa</h2>
+      <input type="text" name="nome" placeholder="Nome da Empresa" required />
+      <input type="text" name="cnpj" placeholder="CNPJ da Empresa" required />
+      <input type="email" name="email" placeholder="E-mail" required />
+      <input type="tel" name="telefone" placeholder="Telefone" required />
+      <input type="password" name="password" placeholder="Senha" required />
+      <input type="password" name="confirmar" placeholder="Confirmar senha" required />
+      <p id="error-msg"></p>
+      <button type="submit">Cadastrar</button>
+      <p>Já tem uma conta? <a href="login.html">Fazer login</a></p>
+    </form>
+    <script src="scripts/cadastro.js"></script>
+  </div>
+</body>
+</html>
